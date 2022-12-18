@@ -1,0 +1,34 @@
+html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+}
+
+.row, .jumbotron{
+	background-color: rgba(255,255,255,0.6);			
+	margin-bottom: 15px;
+	border-radius: 0px;
+}
+
+/* Innen kezd a stíluslap beállításait! */
+label{
+	font-weight: bold;
+}
+p{
+	text-justify: auto;
+}
+.teljes_szeles{
+	width: 100%;
+}
+#nyitvatartas{
+	margin-bottom: 15px;
+}
+#elso, #masodik, #harmadik,#negyedik{
+	margin-left: 20px;
+}
+#egy, #ketto, #harom, #negy, #ot{
+	background-color: #addaa9;
+	color: green;
+}
+body{
+	background-image: linear-gradient(#5f9ea0, #66ddaa);
+}
